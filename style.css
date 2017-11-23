@@ -1,0 +1,132 @@
+
+.clearfix{
+	clear:both;
+}
+
+body{
+	font-family: Georgia;
+	font-size: 13px;
+	color:#222222;
+}
+.heading {
+	height: 80px;
+	margin-top: 15px;
+}
+
+.navbar-default {
+	height: 40px; 
+	background-color: #3355aa;
+	
+}
+
+.navbar-form navbar-right {
+	width:170px;
+	float: right;
+
+}
+
+#first{
+	max-width: 100%;
+}
+
+.figure{
+	margin-top : 35px;
+	border: thin grey;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.figure-caption{
+	font-style:italic;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.panel-title{
+	color:#3355aa;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	
+	
+}
+
+.nav navbar-nav{
+	color: #FFFFFF;
+}
+
+#upper{
+	background-color: transparent;
+	border-bottom: 2px solid #FF8243;
+}
+
+#announcements{
+	font-style: italic;
+}
+small{
+	font-size: 10px;
+}
+
+#view{
+	font-style: italic;
+	font-weight: bold;
+	color: #3355aa;
+}
+
+.panel-default{
+	margin-top: 35px;
+	border:0;
+	
+}
+
+#bottom{
+	margin-top: 45px;
+}
+
+
+h4{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 25px;
+	
+}
+
+.separate{
+	background-color: #D3D3D3;
+}
+
+#space{
+	margin-top: 45px;
+}
+
+#inside{
+	height: 250px;
+	width:100%;
+	background-color:#eee6dd;
+	white-space:5px;
+}
+
+#lower{
+	font-size: 16px;
+	color:#3355aa;
+	font-weight: bold;
+	background-color: transparent;
+	border-bottom: 0;
+}
+
+.footer{
+	padding-top: 15px; 
+	background-color: #333333;
+}
+
+#home{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+#terms{
+	font-size: 11px;
+	float:right;
+}
+
+#copy{
+	padding-bottom: 35px;
+}
