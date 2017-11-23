@@ -1,38 +1,60 @@
 
-.clearfix{
-	clear:both;
-}
+
 
 body{
 	font-family: Georgia;
 	font-size: 13px;
-	color:#222222;
+	/*color:#222222;*/
 }
+
+.clearfix{
+	clear:both;
+}
+
 .heading {
 	height: 80px;
 	margin-top: 15px;
 }
 
 .navbar-default {
-	height: 40px; 
+	height: 50px; 
 	background-color: #3355aa;
-	
+}
+
+.nav.navbar-nav li a{
+	color:#FFFFFF;
 }
 
 .navbar-form navbar-right {
 	width:170px;
 	float: right;
+    color: #FFFFFF;
+}
 
+#srch-term{
+	font-style: italic;
+	border-radius: 5px;
+}
+
+#navtext{
+	color:white;
+	font-style: italic;
 }
 
 #first{
 	max-width: 100%;
 }
 
+#searchbtn{
+	color:#FFFFFF;
+	background-color: #4286f4;
+}
+
 .figure{
 	margin-top : 35px;
 	border: thin grey;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	padding:10px;
 }
 
 .figure-caption{
@@ -45,13 +67,7 @@ body{
 	color:#3355aa;
 	font-size: 16px;
 	font-weight: bold;
-	background-color: transparent;
-	
-	
-}
-
-.nav navbar-nav{
-	color: #FFFFFF;
+	background-color: transparent;	
 }
 
 #upper{
@@ -61,6 +77,7 @@ body{
 
 #announcements{
 	font-style: italic;
+	border-bottom: 1px solid #d3d3d3;
 }
 small{
 	font-size: 10px;
@@ -82,12 +99,11 @@ small{
 	margin-top: 45px;
 }
 
-
 h4{
 	text-align: center;
 	font-size: 28px;
 	margin-top: 25px;
-	
+	font-weight: bold;	
 }
 
 .separate{
@@ -118,15 +134,27 @@ h4{
 	background-color: #333333;
 }
 
+#terms{
+	font-size: 11px;
+	float:right;
+	color:#D3D3D3;
+}
+
+#copy{
+	color:#3d3d3d;
+	padding-top: 10px;
+	padding-bottom: 35px;
+}
+
 #home{
 	color: #FFFFFF;
 	font-size: 14px;
 }
-#terms{
-	font-size: 11px;
-	float:right;
+
+#second{
+	margin-bottom: 75px;
 }
 
-#copy{
-	padding-bottom: 35px;
+#final{
+	border-bottom: 1px solid #3d3d3d;
 }
